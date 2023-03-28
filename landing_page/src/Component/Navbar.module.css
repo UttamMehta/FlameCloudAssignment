@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Figtree';
+}
+
+.main{
+   display: flex;
+   width: 1000px;
+   border: 2px solid red;
+   align-items: center;
+   position: absolute;
+   justify-content: space-between;
+   align-items: center;
+}
+.mainFirstDiv{
+    /* position: absolute; */
+    width: 180px;
+    height: 31px;
+    left: 408px;
+    top: 14px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #111822;
+}
+
+.mainSecondDiv{
+    display: flex;
+    gap:16px;
+}
+.mainSecondDiv>p,.mainFourthDiv>p{
+font-family: Figtree;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+align: Left;
+}
+
+.mainFourthDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.mainFourthDiv>button{
+  text-decoration: none;
+  border: 0cm;
+  width: 48px;
+height: 19px;
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+
+.mainFourthDiv>button:nth-child(3){
+background: #077BFF;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 127px;
+height: 39px;
+left: 1420px;
+top: 10px;
+}
