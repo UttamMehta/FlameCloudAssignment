@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+}
+
+.page01_FirstDiv{
+    width: 249px;
+height: 19px;
+left: 836px;
+top: 154px;
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: gray;
+background: rgba(17, 24, 34, 1);
+
+}

@@ -10,7 +10,7 @@
    width: 1000px;
    border: 2px solid red;
    align-items: center;
-   position: absolute;
+   /* position: fixed; */
    justify-content: space-between;
    align-items: center;
 }
