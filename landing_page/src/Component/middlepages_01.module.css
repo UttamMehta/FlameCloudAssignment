@@ -15,6 +15,11 @@ line-height: 19px;
 color: gray;
 }
 
+.page01_FirstDiv{
+    padding-top: 120px;
+    margin: auto;
+}
+
 .mains>div>h1{
     /* position: absolute; */
     width: 824px;
@@ -95,7 +100,6 @@ margin: auto;
 .pages01_SeventhDiv{
     display: flex;
     margin-top: 24px;
-    gap: 0px;
    width: 850px;
 }
 
@@ -114,4 +118,36 @@ align-items: center;
 
 .pages01_SeventhDiv>div>div:nth-child(1){
     padding-left: 16px;
+}
+
+.mains>div,.mains>div>h1,.mains>div>button{
+    margin: auto;
+   margin-bottom: 10px;
+}
+.pages01_ThirdDiv>p{
+    color: darkgray;
+}
+
+.pages01_FifthDiv>div>span,i,.page01_SixthDiv>b>span:nth-child(2){
+    color:green
+}
+
+.pages01_FifthDiv{
+    padding: 10px;
+    height: 60px;
+    justify-content: center;
+}
+
+.page01_SixthDiv{
+    padding: 10px;
+}
+
+.pages01_FifthDiv{
+    width: 200px;
+    height: 100%;
+}
+
+.pages01_SeventhDiv>div{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }

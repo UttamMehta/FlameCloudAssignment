@@ -3,6 +3,7 @@ import styles from "./Navbar.module.css"
 
 function Navbar(props) {
     return (
+        <div className={styles.uttam}>
         <div className={styles.main}> 
             <div className={styles.mainFirstDiv}>CreativeProxies</div>
             
@@ -11,7 +12,9 @@ function Navbar(props) {
          <div> <p>Explore Tools</p> <span class="material-symbols-outlined">
 expand_more
 </span></div> 
-            <p>Resources</p>
+<div> <p>Resources</p> <span class="material-symbols-outlined">
+expand_more
+</span></div> 
             <p>FAQs</p>
             <p>Blogs</p>
             </div>
@@ -21,6 +24,7 @@ expand_more
             <button>Log in</button>
             <button>Get Started</button>
             </div>
+        </div>
         </div>
     );
 }

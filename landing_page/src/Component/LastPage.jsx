@@ -11,7 +11,7 @@ function LastPage(props) {
                 All rights reserved.</span>
                <button>Join Our Discord</button>
             </div>
-
+            
             <div>
             <span>Explore</span><br/>
             <p>Proxy Location Checker</p>

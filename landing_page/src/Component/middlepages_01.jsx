@@ -20,32 +20,22 @@ function Middlepages_01(props) {
             </div>
 
             <div className={styles.pages01_FourthDiv}>
-                <button>Get Started</button>
+                <button>Get Started <span class="material-symbols-outlined">
+arrow_forward
+</span></button>
             </div>
         <div className={styles.pages01_FifthDiv}>
         <div>
-    <span class="material-symbols-outlined">
-star_rate
-</span>
-<span class="material-symbols-outlined">
-star_rate
-</span>
-<span class="material-symbols-outlined">
-star_rate
-</span>
-<span class="material-symbols-outlined">
-star_rate
-</span>
-<span class="material-symbols-outlined">
-star_rate
-</span>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<i class="fa fa-star-half-full"></i>
 
         </div>
         <div className={styles.page01_SixthDiv}>
      <b> <span>  Rated 4.5 on</span>
-        <span class="material-symbols-outlined" style={{color:"green"}}>
-star_rate
-</span>
+     <span class="fa fa-star"></span>
 <span>Trustpilot</span></b>
         </div>
        

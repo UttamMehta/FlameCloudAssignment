@@ -7,12 +7,10 @@
 
 .main{
    display: flex;
-   width: 900px;
-   border: 2px solid red;
+   width: 950px;
    align-items: center;
-   /* position: fixed; */
    justify-content: space-between;
-   align-items: center;
+   margin: auto;
 }
 .mainFirstDiv{
     /* position: absolute; */
@@ -26,8 +24,14 @@
     font-size: 26px;
     line-height: 31px;
     color: #111822;
+
 }
 
+
+.uttam{
+background-color: white;
+margin: auto;
+position: fixed;text-align: center;}
 .mainSecondDiv{
     display: flex;
     gap:16px;
@@ -89,4 +93,16 @@ top: 10px;
 
 .main{
     margin: auto;
+}
+.mainSecondDiv>div{
+    display: flex;
+    align-items: center;
+}
+.mainSecondDiv{
+    align-items: center;
+}
+
+.uttam{
+   padding-top: 10px;
+    width: 100%;
 }
