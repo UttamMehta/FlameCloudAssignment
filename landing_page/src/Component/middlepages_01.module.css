@@ -3,7 +3,7 @@
 }
 
 .page01_FirstDiv{
-    width: 249px;
+    width:300px;
 height: 19px;
 left: 836px;
 top: 154px;
@@ -13,6 +13,92 @@ font-weight: 600;
 font-size: 16px;
 line-height: 19px;
 color: gray;
-background: rgba(17, 24, 34, 1);
+}
 
+.mains>div>h1{
+    /* position: absolute; */
+    width: 824px;
+    height: 134px;
+    left: 548px;
+    top: 176px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+}
+
+.green{
+    color: 
+    rgba(22, 209, 19, 1);
+}
+
+.pages01_ThirdDiv{
+width: 470px;
+height: 52px;
+left: 706px;
+top: 327px;
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+}
+.blue{
+    color: rgba(7, 123, 255, 1);
+}
+
+.pages01_FourthDiv>button{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    width: 200px;
+    height: 40px;
+    left: 849px;
+    top: 405px ;
+    color: antiquewhite;
+    background: #077BFF;
+    border: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.pages01_FifthDiv{
+    width: 222px;
+height: 80px;
+left: 849px;
+top: 479px;
+border-radius: 10px;
+background: rgba(0, 182, 122, 0.1);
+align-items: center;
+margin: auto;
+}
+
+
+.page01_SixthDiv>b{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.page01_SixthDiv,.pages01_FifthDiv{
+    padding-top: 4px;
+}
+
+.page_01SeventhDiv>div{
+width: 285.84px;
+height: 95.28px;
+left: 364px;
+top: 754px;
+background: #EEFEFD;
+border: 1px solid #D4EAE8;
+border-radius: 5px;
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
