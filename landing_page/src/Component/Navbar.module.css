@@ -7,7 +7,7 @@
 
 .main{
    display: flex;
-   width: 1000px;
+   width: 900px;
    border: 2px solid red;
    align-items: center;
    /* position: fixed; */
@@ -70,4 +70,23 @@ width: 127px;
 height: 39px;
 left: 1420px;
 top: 10px;
+}
+
+.mainFourthDiv{
+    color:rgba(88, 101, 242, 1);
+    font-family: 'Figtree';
+}
+.mainFourthDiv>button{
+    background-color: white;
+}
+
+.mainFourthDiv>p{
+    margin-left: 20px;
+}
+.mainFourthDiv>button+button{
+    color: white;
+}
+
+.main{
+    margin: auto;
 }

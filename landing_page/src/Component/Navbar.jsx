@@ -8,7 +8,9 @@ function Navbar(props) {
             
             <div className={styles.mainSecondDiv}>      
             <p>Pricing</p>
-            <p>Explore Tools</p>
+         <div> <p>Explore Tools</p> <span class="material-symbols-outlined">
+expand_more
+</span></div> 
             <p>Resources</p>
             <p>FAQs</p>
             <p>Blogs</p>

@@ -13,7 +13,6 @@ let arr=[1,2,3,4,5,6,7,8];
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus augue sit amet mollis molestie.</p>
 
             </div>
-
             <div className={styles.Pages02_SecondDiv}>
         {arr.map((e)=>{
             return <Feature number={e}/>

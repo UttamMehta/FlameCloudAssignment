@@ -5,6 +5,7 @@ import Middlepages_01 from "./Component/Middlepages_01";
 import MiddlePages_02 from "./Component/MiddlePages_02";
 import Middlepages_03 from "./Component/Middlepages_03";
 import Middlepages_04 from "./Component/Middlepages_04";
+import LastPage from "./Component/LastPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MiddlePages_02 />
       <Middlepages_03 />
       <Middlepages_04 />
+      <LastPage />
     </div>
   );
 }

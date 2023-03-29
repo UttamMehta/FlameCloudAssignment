@@ -1,0 +1,31 @@
+.Lastpage_mainDiv{
+    display: grid;
+    width: 950px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: auto;
+    margin-top: 48px;
+    text-align: left;
+}
+
+.Lastpage_mainDiv>div>button{
+height: 36px;
+width: 130px;
+background: rgba(88, 101, 242, 0.1);
+border: 1px solid #5865F2;
+border-radius: 10px;
+color: #5865F2;
+}
+
+.Lastpage_FirstDiv{
+    display: grid;
+}
+
+.Lastpage_mainDiv>div>span{
+    color: darkgray;
+    font-size: small;
+} 
+
+.Lastpage_mainDiv>div span,.Lastpage_mainDiv>div>h2,.Lastpage_mainDiv>div>p{
+    margin-bottom: 5px;
+}

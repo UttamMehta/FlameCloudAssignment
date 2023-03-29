@@ -14,7 +14,6 @@ function Middlepages_04(props) {
 
           
           
-          
           <div className={styles.page04_SecondDiv}>
           
           {
