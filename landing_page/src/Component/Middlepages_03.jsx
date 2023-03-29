@@ -1,4 +1,5 @@
 import React from 'react';
+import Ipv from '../pages/Ipv';
 import Review from '../pages/Review';
 import styles from "./Middlepages_03.module.css"
 
@@ -15,7 +16,8 @@ function Middlepages_03(props) {
 
 
             <div className={styles.page03_SecondDiv}>
-                ipv4 and ipv6
+                <Ipv bg={styles.bl} co={styles.blue} col="blue"value="4" />
+                <Ipv bg={styles.gr} co={styles.green} col="green"value="6" />
             </div>
 
 

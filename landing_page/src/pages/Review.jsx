@@ -5,9 +5,9 @@ function Review(props) {
     return (
         <div style={{display:"grid",width: "300px",textAlign:"left"}}>
             <div style={{paddingBottom:"8px",display:"flex",gap:"3px" }}>
-          {arr.map((e)=> <span class="material-symbols-outlined" style={{background:"green",borderRadius:"100px",color:"white"}}>
-star
-</span>)}
+          {arr.map((e)=>
+          <span class="fa fa-star"></span>
+          )}
           
             </div>
             <div>
