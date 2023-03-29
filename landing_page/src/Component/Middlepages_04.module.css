@@ -1,0 +1,55 @@
+
+.blue{
+    color: rgba(7, 123, 255, 1);
+}
+
+.page04_mainDiv{
+width: 950px;
+background: linear-gradient(180deg, #F7FAFF 0%, rgba(255, 255, 255, 0) 100%);
+border: 1px solid rgba(30, 30, 30, 0.1);
+margin: auto;
+margin-top: 30px;
+padding-left: 32px;
+padding-right: 10px;
+}
+
+.page04_FirstDiv>h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+
+.page04_FirstDiv>p{
+    width: 450px;
+    margin: auto;
+    color: lightgray;
+    font-weight: 300px;
+font-size: 18px;
+line-height: 22px;
+text-align:center;}
+
+
+.page04_SecondDiv>div>h3{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    background: rgba(7, 123, 255, 0.1);
+border: 1px solid rgba(7, 123, 255, 0.5);
+border-radius: 5px;
+}
+
+.page04_SecondDiv>div{
+    display: grid;
+    text-align: left;
+}
+.page04_SecondDiv>div>p{
+    color: lightgray;
+}
+
+.page04_SecondDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
