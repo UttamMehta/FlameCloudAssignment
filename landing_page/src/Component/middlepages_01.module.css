@@ -92,13 +92,26 @@ margin: auto;
     padding-top: 4px;
 }
 
-.page_01SeventhDiv>div{
-width: 285.84px;
-height: 95.28px;
-left: 364px;
+.pages01_SeventhDiv{
+    display: flex;
+    margin-top: 24px;
+    gap: 0px;
+   width: 850px;
+}
+
+.pages01_SeventhDiv>div{
+display: flex;
+width: 204px;
+height: 72px;
+/* left: 364px; */
 top: 754px;
 background: #EEFEFD;
 border: 1px solid #D4EAE8;
 border-radius: 5px;
-transform: matrix(1, 0, 0, -1, 0, 0);
+margin: auto;
+align-items: center;
+}
+
+.pages01_SeventhDiv>div>div:nth-child(1){
+    padding-left: 16px;
 }

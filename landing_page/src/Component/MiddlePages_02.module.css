@@ -1,0 +1,62 @@
+.Pages02_mainDiv{
+width: 100%;
+height: 600px;
+left: 0px;
+top: 893px;
+background: #0566D4;
+margin: auto;
+}
+
+.Pages02_FirstDiv>h2{
+width: 578px;
+height: 43px;
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+color: white;
+margin: auto;
+}
+
+.Pages02_mainDiv{
+    margin-top: 72px;
+}
+.Pages02_mainDiv>div>h2{
+padding-top: 100px;
+}
+
+.Pages02_FirstDiv>p{
+    width: 450px;
+    margin: auto;
+   color:darkgray;
+   font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+
+.Pages02_mainDiv{
+    color: white;
+}
+
+.Pages02_SecondDiv>div{
+    width: 250px;
+    text-align: left;
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+}
+.Pages02_SecondDiv>div>p{
+    color: lightgray;
+}
+
+.Pages02_SecondDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    width: 85%;
+}

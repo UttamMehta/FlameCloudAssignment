@@ -52,7 +52,11 @@ star_rate
         </div>
 
         <div className={styles.pages01_SeventhDiv}>
-        <Img_Content color={"green"}/>
+
+        <Img_Content color={"rgba(59, 201, 251, 1)"}/>
+        <Img_Content color={"rgba(114, 230, 229, 1)"}/>
+        <Img_Content color={"rgba(128, 252, 106, 1)"}/>
+        <Img_Content color={"rgba(46, 115, 232, 1)"}/>
         </div>
         </div>
     );
