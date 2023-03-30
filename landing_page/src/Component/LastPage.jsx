@@ -11,7 +11,7 @@ function LastPage(props) {
                 All rights reserved.</span>
                <button>Join Our Discord</button>
             </div>
-            
+            <div className={styles.Footer}>
             <div>
             <span>Explore</span><br/>
             <p>Proxy Location Checker</p>
@@ -34,7 +34,7 @@ function LastPage(props) {
             <p>Privacy Policy</p>
             
             </div>
-
+            </div>
         </div>
     );
 }

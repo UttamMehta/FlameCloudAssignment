@@ -55,3 +55,17 @@ border-radius: 5px;
 }
 
 
+@media screen and (min-width:350px) and (max-width:550px) {
+    
+    .page04_FirstDiv{
+       width: 75% ;
+    }
+
+    .page04_SecondDiv{
+        display: grid;
+        width: 70%;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
