@@ -107,6 +107,10 @@ top: 10px;
     width: 100%;
 }
 
+.sidebar{
+    display: none;
+}
+
 
 @media screen and (min-width:350px) and (max-width:550px) {
     .mainSecondDiv,.mainFourthDiv>p{
@@ -119,10 +123,40 @@ top: 10px;
     .mainFourthDiv>button{
         color: white;
     }
+    .main{
+        margin-top: 26px;
+        margin-left: 40px;
+    }
 
     .mainFirstDiv{
       font-size: xxx-large;
     }
+    .sidebar{
+        display: contents;
+        height: 100px;
+        color: black;
+        border: 2px solid red;
+    }
 
-    
+    .sidebar>div{
+        margin-top: 30px;
+        align-items: center;
+        margin: auto;
+        height: auto;
+        font-size: large;
+    }
+
+
+    .mainFirstDiv{
+        width: 60%;
+        margin: auto;
+    }
+
+.uttam>.mains div{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
 }

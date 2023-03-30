@@ -196,10 +196,40 @@ border-radius: 5px;
     margin-left: 150px;
 }
 .page03_FifthDiv{
-    display: grid;
- justify-content: center;
-
+display: grid;
+justify-content: center;
 margin-left: 300px;}
+
+.page03_SecondDiv{
+    width: 80%;
+    text-align: left;
+}
+.page03_ThirdDiv{
+    background-color: white;
+    border: 0px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.page03_ThirdDiv>div{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.page03_FourthDiv{
+    width: 150%;
+    text-align: center;
+}
+
+.page03_FifthDiv{
+    border: 0px;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
 
 
 

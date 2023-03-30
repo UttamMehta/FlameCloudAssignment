@@ -153,27 +153,27 @@ align-items: center;
 }
 
 
-@media (min-width: 350px)and (max-width:550px){
+@media (min-width: 350px)and (max-width:500px){
 
     *{
         align-items: center;
         justify-content: center;
     }
 .mains>.page01_FirstDiv{
-margin-left: 250px;
+margin-left: 200px;
 font-size: medium;
 }
 
 .mains>.page01_SecondDiv{
-    width: 100%;
-    font-size: small;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-top: 16px;
+    width: 60%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .mains>.page01_SecondDiv h1{
-width: 600px;
-margin-left: 60px;
-margin-bottom: 60px;
+    width: 600px;
+height: 100%;
 }
 
 .mains>.pages01_ThirdDiv,.mains>.pages01_FourthDiv,.mains>.pages01_FifthDiv{
@@ -196,6 +196,44 @@ margin-bottom: 60px;
     gap: 0px;
     border: 2px solid red;
 } */
+
+.mains{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.mains>.pages01_FourthDiv,.mains>.page01_FirstDiv,.mains>.page01_SecondDiv,.mains>.pages01_ThirdDiv{
+    margin-bottom: 32px;
+}
+
+.mains>.pages01_ThirdDiv{
+    margin: 0px;
+    margin: auto;
+    margin-left: 100px;
+    margin-bottom: 32px;
+}
+
+.mains>.pages01_FifthDiv{
+    align-items: center;
+    width: 100%;
+}
+
+.mains>.pages01_SeventhDiv{
+padding: 0px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 350%;
+margin: auto;
+}
+
+.mains>.pages01_SeventhDiv>div{
+   
+    margin: 5px;
+    padding: 0px;
+}
+
 
 
 }
