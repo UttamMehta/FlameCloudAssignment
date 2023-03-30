@@ -179,3 +179,29 @@ border-radius: 5px;
     display: flex;
 }
 
+
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+.page03_FirstDiv>h1,.page03_FirstDiv>p{
+    width: 100%;
+    margin-left: 220px;
+}
+
+.page03_SecondDiv{
+    display: grid;
+    margin-left: 300px;
+}
+
+.page03_FourthDiv{
+    width: 100%;
+    margin-left: 150px;
+}
+.page03_FifthDiv{
+    display: grid;
+ justify-content: center;
+
+margin-left: 300px;}
+
+
+
+
+}
