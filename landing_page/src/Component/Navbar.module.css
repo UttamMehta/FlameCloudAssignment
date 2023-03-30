@@ -106,3 +106,23 @@ top: 10px;
    padding-top: 10px;
     width: 100%;
 }
+
+
+@media screen and (min-width:350px) and (max-width:550px) {
+    .mainSecondDiv,.mainFourthDiv>p{
+        display: none;
+    }
+
+    .mainFourthDiv{
+       width: 80%;
+    }
+    .mainFourthDiv>button{
+        color: white;
+    }
+
+    .mainFirstDiv{
+      font-size: xxx-large;
+    }
+
+    
+}

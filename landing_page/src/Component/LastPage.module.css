@@ -21,13 +21,23 @@ color: #5865F2;
     display: grid;
 }
 
-.Lastpage_mainDiv>div>span{
+.Lastpage_mainDiv>div>div>span,.Lastpage_mainDiv>div>span{
     color: darkgray;
     font-size: small;
 } 
 
 .Lastpage_mainDiv>div span,.Lastpage_mainDiv>div>h2,.Lastpage_mainDiv>div>p{
     margin-bottom: 5px;
+}
+
+.Lastpage_mainDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Footer{
+    display: flex;
+    width: 100%;
+    gap: 16px;
 }
 
 
