@@ -151,3 +151,51 @@ align-items: center;
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+
+@media (min-width: 350px)and (max-width:550px){
+
+    *{
+        align-items: center;
+        justify-content: center;
+    }
+.mains>.page01_FirstDiv{
+margin-left: 250px;
+font-size: medium;
+}
+
+.mains>.page01_SecondDiv{
+    width: 100%;
+    font-size: small;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.mains>.page01_SecondDiv h1{
+width: 600px;
+margin-left: 60px;
+margin-bottom: 60px;
+}
+
+.mains>.pages01_ThirdDiv,.mains>.pages01_FourthDiv,.mains>.pages01_FifthDiv{
+   margin-bottom: 20px;
+   margin-left: 180px;
+}
+
+.mains>.pages01_SeventhDiv{
+    display: grid;
+    /* width: 100%; */
+    grid-template-columns: repeat(2,1fr);
+    margin: 0px;
+    gap: 0px;
+    padding: 0px;
+    margin-left: -50px;
+}
+
+/* .mains>.pages01_SeventhDiv{
+    display: flex;
+    gap: 0px;
+    border: 2px solid red;
+} */
+
+
+}

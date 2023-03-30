@@ -9,7 +9,7 @@ function Middlepages_01(props) {
             WELCOME TO CREATIVE PROXIES
             </div>
 
-            <div>
+            <div className={styles.page01_SecondDiv}>
             <h1>
             We are the <span className={styles.blue}>Fastest</span> and the <span className={styles.green}>Most
              Reliable</span> Proxy Service since 2020</h1>
@@ -30,7 +30,7 @@ arrow_forward
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
-<i class="fa fa-star-half-full"></i>
+<span class="fa fa-star"></span>
 
         </div>
         <div className={styles.page01_SixthDiv}>
@@ -38,7 +38,6 @@ arrow_forward
      <span class="fa fa-star"></span>
 <span>Trustpilot</span></b>
         </div>
-       
         </div>
 
         <div className={styles.pages01_SeventhDiv}>

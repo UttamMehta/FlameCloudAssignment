@@ -144,4 +144,38 @@ margin-top: 60px;
     background-color: lightgreen;
 }
 
+.page03_ThirdDiv{
+box-sizing: border-box;
+width: 708px;
+height: 100px;
+left: 606px;
+top: 2485px;
+background: rgba(30, 30, 30, 0.01);
+border: 1px solid rgba(30, 30, 30, 0.1);
+border-radius: 5px;
+}
+
+
+.page03_ThirdDiv>div{
+    display: flex;
+}
+.page03_ThirdDiv>div h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.page03_ThirdDiv{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.page03_ThirdDiv>div>div>div>div{
+    margin-left: 16px; 
+    align-items: center;
+}
+
+.page03_ThirdDiv>div>div:nth-child(2)>div:nth-child(2)>div{
+    display: flex;
+}
 

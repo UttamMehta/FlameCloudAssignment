@@ -64,3 +64,19 @@ text-align: center;
 .Pages02_SecondDiv{
   margin: auto;
 }
+
+@media only screen and (min-width: 350px) and (max-width:550px){
+.Pages02_mainDiv{
+    margin: 0px;
+    width: 200%;
+    height: 100%;
+}
+
+.Pages02_SecondDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+}

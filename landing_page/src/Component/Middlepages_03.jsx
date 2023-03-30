@@ -1,4 +1,5 @@
 import React from 'react';
+import BestSeller from '../pages/BestSeller';
 import Ipv from '../pages/Ipv';
 import Review from '../pages/Review';
 import styles from "./Middlepages_03.module.css"
@@ -22,7 +23,7 @@ function Middlepages_03(props) {
 
 
             <div className={styles.page03_ThirdDiv}>
-            become seller
+            <BestSeller />
             </div>
 
             <div className={styles.page03_FourthDiv}>
