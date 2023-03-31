@@ -65,6 +65,10 @@ text-align: center;
   margin: auto;
 }
 
+.Pages02_FirstDiv>h2,.Pages02_FirstDiv>p{
+    margin-bottom: 60px;
+}
+
 @media only screen and (min-width: 350px) and (max-width:550px){
 .Pages02_mainDiv{
     margin-top:40px;
@@ -84,6 +88,7 @@ text-align: center;
 .Pages02_SecondDiv{
     margin: 0px;
     width: 60%;
+    padding:0px;
     margin: auto;
 }
 
